@@ -9,7 +9,7 @@ import { useContext } from 'react';
 import ShopContext from '../context/ShopContext';
 import ScrollBtn from './ScrollBtn';
 
-const host = "https://ecommerce-reactapp-alok.herokuapp.com/api/user/regester";
+const host = "https://fashion-collection-backend.vercel.app/api/user/regester";
 // const host = "http://localhost:5000/api/user/regester";
 
 const Regester = () => {
