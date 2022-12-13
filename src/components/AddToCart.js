@@ -10,7 +10,7 @@ import { useContext } from "react";
 import ShopContext from "../context/ShopContext";
 import ScrollBtn from './ScrollBtn';
 const host = "https://fashion-collection-backend.vercel.app";
-// const host = "http://localhost:5000";
+
 
 const AddToCart = () => {
     const context = useContext(ShopContext);

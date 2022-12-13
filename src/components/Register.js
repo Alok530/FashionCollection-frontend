@@ -32,7 +32,6 @@ const Regester = () => {
 
     const onsubmitfun = async (event) => {
         event.preventDefault();
-        console.log(User,gender)        
         let url = `${host}`;
         const response = await fetch(url, {
             method: 'POST',
