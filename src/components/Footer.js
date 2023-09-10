@@ -63,13 +63,12 @@ export default function Footer() {
                     <div className="col-md-3 mx-auto text-center mb-2">
                         <h3>Contact Me</h3>
                         <div>
-                            <samp>Chapra, Bihar</samp><br />
-                            <samp>Phone: 7321015099</samp><br />
-                            <samp>Email: alokkumarrai2003@gmail.com</samp>
+                            <samp>Kalyani</samp><br />
+                            <samp>Phone: +91xxxxxxxx</samp><br />
                         </div>
                     </div>
                     <hr />
-                    <p className="copyright">@Copyright 2021 - Alok Kumar Rai</p>
+                    <p className="copyright">@Copyright 2021 - Alok & Anuj</p>
                 </div>
             </div>
         </>
