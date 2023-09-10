@@ -10,7 +10,6 @@ import ShopContext from '../context/ShopContext';
 import ScrollBtn from './ScrollBtn';
 
 const host = "https://fashion-collection-backend.vercel.app/api/user/regester";
-// const host = "http://localhost:5000/api/user/regester";
 
 const Regester = () => {
     const context = useContext(ShopContext);
