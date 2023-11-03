@@ -43,9 +43,12 @@ export default function Footer() {
                     <div className="col-md-3 mx-auto text-center mb-4">
                         <h3>Follow Me</h3>
                         <div className="mx-auto mb-2">
-                            <samp><i onClick={() => { window.open('https://m.facebook.com/alok.alokroy.585', '_blank') }} className="bi bi-facebook mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
+                            {/* <samp><i onClick={() => { window.open('https://m.facebook.com/alok.alokroy.585', '_blank') }} className="bi bi-facebook mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
                             <samp><i onClick={() => { window.open('https://www.instagram.com/rajalok530/', '_blank') }} className="bi bi-instagram mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
-                            <samp><i onClick={() => { window.open('https://www.linkedin.com/in/alok-kumar-rai-3261b21ba/', '_blank') }} className="bi bi-linkedin mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
+                            <samp><i onClick={() => { window.open('https://www.linkedin.com/in/alok-kumar-rai-3261b21ba/', '_blank') }} className="bi bi-linkedin mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp> */}
+                            <samp><i  className="bi bi-facebook mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
+                            <samp><i  className="bi bi-instagram mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
+                            <samp><i  className="bi bi-linkedin mx-2" style={{ cursor: 'pointer', color: 'white', fontSize: '23px' }}></i></samp>
                         </div>
                     </div>
                     <div className="col-md-3 mx-auto text-center mb-2">
@@ -68,7 +71,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <hr />
-                    <p className="copyright">@Copyright 2021 - Alok & Anuj</p>
+                    <p className="copyright">@Copyright 2023 - Aman & Anuj</p>
                 </div>
             </div>
         </>
